@@ -1,0 +1,146 @@
+{
+  "trend": {
+    "window_start": "2017-01-01",
+    "window_end": "2018-08-01",
+    "months_in_window": 20,
+    "peak_month": "2017-11-01",
+    "peak_revenue_brl": 1001140.47,
+    "first_month_revenue_brl": 114856.38,
+    "last_month_revenue_brl": 848124.28,
+    "window_growth_pct": 638.4,
+    "annualised_growth_pct": 253.5,
+    "best_mom_pct": 107.9,
+    "best_mom_month": "2017-02-01",
+    "worst_mom_pct": -26.4,
+    "worst_mom_month": "2017-12-01"
+  },
+  "cohort": {
+    "median_m1_retention_pct": 0.51,
+    "best_m1_retention_pct": 0.71,
+    "worst_m1_retention_pct": 0.02,
+    "max_observed_offset": 20
+  },
+  "rfm": {
+    "top_segment": "Hibernating / Lost",
+    "top_segment_customers": 37404,
+    "top_segment_pct_customers": 39.62,
+    "top_segment_pct_revenue": 39.11,
+    "at_risk_customers": 356,
+    "at_risk_revenue_brl": 138591.51,
+    "cant_lose_revenue_brl": 0.0,
+    "segments_table": [
+      {
+        "segment": "Champions",
+        "customers": "62",
+        "pct_customers": "0.07",
+        "revenue": "34779.13",
+        "pct_revenue": "0.26",
+        "avg_monetary": "560.95",
+        "avg_frequency": "3.69",
+        "avg_recency_days": "49.0"
+      },
+      {
+        "segment": "Loyal Customers",
+        "customers": "1166",
+        "pct_customers": "1.24",
+        "revenue": "332665.85",
+        "pct_revenue": "2.47",
+        "avg_monetary": "285.31",
+        "avg_frequency": "2.07",
+        "avg_recency_days": "96.0"
+      },
+      {
+        "segment": "Potential Loyalists",
+        "customers": "615",
+        "pct_customers": "0.65",
+        "revenue": "170793.36",
+        "pct_revenue": "1.27",
+        "avg_monetary": "277.71",
+        "avg_frequency": "2.09",
+        "avg_recency_days": "222.0"
+      },
+      {
+        "segment": "New / Promising",
+        "customers": "18240",
+        "pct_customers": "19.32",
+        "revenue": "2530729.63",
+        "pct_revenue": "18.82",
+        "avg_monetary": "138.75",
+        "avg_frequency": "1.0",
+        "avg_recency_days": "50.0"
+      },
+      {
+        "segment": "Need Attention",
+        "customers": "36556",
+        "pct_customers": "38.72",
+        "revenue": "4977651.97",
+        "pct_revenue": "37.03",
+        "avg_monetary": "136.17",
+        "avg_frequency": "1.0",
+        "avg_recency_days": "182.0"
+      },
+      {
+        "segment": "At Risk",
+        "customers": "356",
+        "pct_customers": "0.38",
+        "revenue": "138591.51",
+        "pct_revenue": "1.03",
+        "avg_monetary": "389.3",
+        "avg_frequency": "2.11",
+        "avg_recency_days": "322.0"
+      },
+      {
+        "segment": "Hibernating / Lost",
+        "customers": "37404",
+        "pct_customers": "39.62",
+        "revenue": "5258322.69",
+        "pct_revenue": "39.11",
+        "avg_monetary": "140.59",
+        "avg_frequency": "1.02",
+        "avg_recency_days": "400.0"
+      }
+    ]
+  },
+  "pareto": {
+    "concentration": {
+      "1": 11.53,
+      "5": 29.29,
+      "10": 41.3,
+      "20": 56.82,
+      "30": 67.84,
+      "50": 83.4
+    },
+    "one_time_customer_pct": 96.97,
+    "repeat_customer_pct": 3.03
+  },
+  "category": {
+    "top_category": "health_beauty",
+    "top_category_pct_revenue": 9.31,
+    "top3_pct_revenue": 25.97,
+    "categories_total": 74
+  },
+  "state": {
+    "top_state": "SP",
+    "top3_states_pct_revenue": 63.38,
+    "delivery_vs_review_r": -0.41,
+    "delivery_vs_review_p": 0.0336,
+    "slowest_state": "RR",
+    "slowest_state_days": 28.2
+  },
+  "payment": {
+    "card_pct_value": 78.51,
+    "card_avg_installments": 3.5
+  },
+  "sla": {
+    "avg_on_time_pct": 94.12,
+    "late_orders": 6417,
+    "late_pct_of_delivered": 6.66,
+    "late_avg_review": 2.273,
+    "ontime_avg_review": 4.291,
+    "welch_t": -101.04,
+    "welch_p": 0.0,
+    "bad_review_rate_ontime_pct": 11.63,
+    "bad_review_rate_late_pct": 74.58,
+    "avg_delivery_days": 12.47
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "orders_total": 99441,
+  "orders_null_customer_key": 0,
+  "orders_duplicate_order_id": 0,
+  "items_orphan_order_id": 0,
+  "payments_orphan_order_id": 0,
+  "items_missing_product_id": 0,
+  "items_negative_price": 0,
+  "items_null_freight": 0,
+  "products_null_category": 610,
+  "customers_unique_ids": 96350,
+  "customers_with_multiple_order_ids": 2770,
+  "orders_missing_delivered_ts": 8,
+  "delivered_after_estimate": 6535,
+  "revenue_item_based": 13443534.14,
+  "revenue_payments_based": 15599675.73,
+  "revenue_reconciliation_gap_pct": 16.04
+}

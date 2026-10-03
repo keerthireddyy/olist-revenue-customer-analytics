@@ -1,0 +1,5 @@
+order_bucket,customers,pct_customers,revenue,pct_revenue,avg_monetary
+1 order,91538,96.97,12634469.5,93.98,138.03
+2 orders,2629,2.78,697156.79,5.19,265.18
+3 orders,184,0.19,76031.35,0.57,413.21
+4+ orders,48,0.05,35876.5,0.27,747.43

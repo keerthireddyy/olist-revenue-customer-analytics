@@ -1,0 +1,5 @@
+payment_type,orders,value,pct_value,avg_installments,pct_multi_installment
+credit_card,75152,12247290.68,78.51,3.5,0.6686
+boleto,19400,2794160.28,17.91,1.0,0.0
+voucher,3723,347142.85,2.23,1.0,0.0
+debit_card,1507,211081.92,1.35,1.0,0.0
